@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Data - do not commit raw satellite imagery
+data/raw/*
+data/interim/*
+data/processed/*
+data/reference/*
+
+# Generated outputs
+outputs/*
+
+# Model artifacts
+models/*
